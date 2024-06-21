@@ -72,6 +72,7 @@ CREATE TABLE `fonte_energia` (
 
 LOCK TABLES `fonte_energia` WRITE;
 /*!40000 ALTER TABLE `fonte_energia` DISABLE KEYS */;
+INSERT INTO `fonte_energia` VALUES (1,'Eolica'),(2,'Solar');
 /*!40000 ALTER TABLE `fonte_energia` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -97,6 +98,7 @@ CREATE TABLE `localidade` (
 
 LOCK TABLES `localidade` WRITE;
 /*!40000 ALTER TABLE `localidade` DISABLE KEYS */;
+INSERT INTO `localidade` VALUES (1,'NE','BA','Interior'),(2,'NE','BA','nan'),(3,'NE','CE','Interior'),(4,'NE','CE','Litoral'),(5,'NE','PB','Interior'),(6,'NE','PE','Interior'),(7,'NE','PI','Interior'),(8,'NE','RN','Interior'),(9,'NE','RN','Litoral'),(10,'NE','RN','nan'),(11,'N','MA','nan'),(12,'SE','MG','nan'),(13,'SE','SP','nan'),(14,'S','RS','nan'),(15,'S','SC','nan');
 /*!40000 ALTER TABLE `localidade` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -121,6 +123,7 @@ CREATE TABLE `tempo` (
 
 LOCK TABLES `tempo` WRITE;
 /*!40000 ALTER TABLE `tempo` DISABLE KEYS */;
+INSERT INTO `tempo` VALUES (1,1,2013),(2,2,2013),(3,3,2013),(4,4,2013),(5,5,2013),(6,6,2013),(7,7,2013),(8,8,2013),(9,9,2013),(10,10,2013),(11,11,2013),(12,12,2013),(13,1,2023),(14,2,2023),(15,3,2023),(16,4,2023),(17,5,2023),(18,6,2023),(19,7,2023),(20,8,2023),(21,9,2023),(22,10,2023),(23,11,2023),(24,12,2023);
 /*!40000 ALTER TABLE `tempo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -133,4 +136,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-21  0:04:01
+-- Dump completed on 2024-06-21  0:29:05
